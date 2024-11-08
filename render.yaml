@@ -1,8 +1,8 @@
 databases:
   - name: myblogdb
     plan: free
-    databaseName: myblogdb
-    user: postgres
+    databaseName: DB_NAME
+    user: DB_USER
 
 services:
   - type: web
